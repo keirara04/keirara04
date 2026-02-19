@@ -1,6 +1,6 @@
 # Hi there! I'm Hakeemi Ridza
 
-### 🎓 Computer Science & Engineering Student | Full-Stack Developer | AI Enthusiast
+### 🎓 Computer Science & Engineering Student | Full-Stack Developer Trainee | AI Enthusiast
 
 **Korea University (3rd Year) | 🔍 Seeking Summer 2026 Internship**
 
