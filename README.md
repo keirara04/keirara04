@@ -2,7 +2,7 @@
 
 ### 🎓 Computer Science & Engineering Student | Full-Stack Developer Trainee | AI Enthusiast
 
-**Korea University (3rd Year) | 🔍 Seeking Summer 2026 Internship**
+**Korea University (3rd Year)**
 
 I'm passionate about building secure, scalable applications that solve real-world problems. Currently exploring the intersection of **full-stack web development** and **AI/ML**, with a focus on user trust and community-driven platforms.
 
