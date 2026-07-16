@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=200&section=header&text=Hakeemi%20Ridza&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20Developer%20%7C%20CS%20Student%20%7C%20Builder&descAlignY=58&descSize=18" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&pause=1000&color=2C5364&center=true&vCenter=true&width=600&lines=Building+production+systems+at+ERS+Energy;Shipping+full-stack+projects+solo;Currently+learning+distributed+systems;Korea+University+%E2%80%A2+Class+of+2027" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&pause=1000&color=2C5364&center=true&vCenter=true&width=600&lines=Building+production+systems+at+ERS+Energy;Shipping+full-stack+projects;Currently+learning+distributed+systems;Korea+University+%E2%80%A2+Class+of+2027" alt="Typing SVG" />
 
 </div>
 
@@ -96,9 +96,9 @@ A full-stack peer-to-peer marketplace for Korean university students, supporting
 
 <div align="center">
 
-[![Hakeemi's GitHub stats](https://github-readme-stats.vercel.app/api?username=keirara04&theme=dark&show_icons=true&count_private=true)](https://github.com/keirara04)
+[![Hakeemi's GitHub stats](https://github-readme-stats-eta-bay-86.vercel.app/api?username=keirara04&theme=dark&show_icons=true&count_private=true)](https://github.com/keirara04)
 
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=keirara04&layout=compact&theme=dark&langs_count=8)](https://github.com/keirara04)
+[![Top Languages](https://github-readme-stats-eta-bay-86.vercel.app/api/top-langs/?username=keirara04&layout=compact&theme=dark&langs_count=8)](https://github.com/keirara04)
 
 </div>
 
@@ -109,8 +109,6 @@ A full-stack peer-to-peer marketplace for Korean university students, supporting
 <img src="https://raw.githubusercontent.com/keirara04/keirara04/output/github-contribution-grid-snake.svg" alt="Snake animation" width="100%"/>
 
 </div>
-
-> Note: the snake animation above requires a one-time GitHub Actions setup in your profile repo (`keirara04/keirara04`). If you'd like, I can walk you through adding the workflow file that generates it.
 
 ---
 
