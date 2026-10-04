@@ -1,0 +1,98 @@
+name: Update Recent Activity
+
+on:
+  schedule: # every 6 hours
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [".github/workflows/recent-activity.yml"]
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Write latest public activity into README
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+        run: |
+          python3 - <<'PY'
+          import json, os, re, urllib.request
+
+          user = os.environ["USERNAME"]
+          req = urllib.request.Request(
+              f"https://api.github.com/users/{user}/events/public?per_page=100",
+              headers={"Authorization": f"Bearer {os.environ['GH_TOKEN']}",
+                       "Accept": "application/vnd.github+json"})
+          events = json.load(urllib.request.urlopen(req))
+
+          def repo(e):
+              n = e["repo"]["name"]
+              return f"[{n}](https://github.com/{n})"
+
+          def line(e):
+              t, p = e["type"], e["payload"]
+              if t == "PushEvent":
+                  n = p.get("size") or len(p.get("commits", [])) or 1
+                  return f"🔨 Pushed {n} commit{'s' if n != 1 else ''} to {repo(e)}"
+              if t == "CreateEvent" and p.get("ref_type") == "repository":
+                  return f"🌱 Created a new repo {repo(e)}"
+              if t == "PullRequestEvent" and p.get("action") in ("opened", "closed"):
+                  pr = p.get("pull_request", {})
+                  num = pr.get("number") or p.get("number")
+                  verb = "Merged" if pr.get("merged") else ("Opened" if p["action"] == "opened" else "Closed")
+                  if not num:
+                      return f"🔀 {verb} a PR in {repo(e)}"
+                  url = f"https://github.com/{e['repo']['name']}/pull/{num}"
+                  return f"🔀 {verb} PR [#{num}]({url}) in {repo(e)}"
+              if t == "IssuesEvent" and p.get("action") == "opened":
+                  num = p.get("issue", {}).get("number")
+                  url = f"https://github.com/{e['repo']['name']}/issues/{num}"
+                  return f"❗ Opened issue [#{num}]({url}) in {repo(e)}"
+              if t == "ReleaseEvent":
+                  tag = p.get("release", {}).get("tag_name", "a new version")
+                  url = f"https://github.com/{e['repo']['name']}/releases"
+                  return f"🚀 Released [{tag}]({url}) of {repo(e)}"
+              if t == "WatchEvent":
+                  return f"⭐ Starred {repo(e)}"
+              if t == "ForkEvent":
+                  return f"🍴 Forked {repo(e)}"
+              return None
+
+          lines, seen = [], set()
+          for e in events:
+              if e["repo"]["name"] == f"{user}/{user}":
+                  continue  # skip bot commits to this profile repo
+              try:
+                  l = line(e)
+              except Exception as err:  # never let one odd event break the run
+                  print(f"skipped {e.get('type')}: {err}")
+                  l = None
+              if l and l not in seen:
+                  seen.add(l)
+                  lines.append(f"{len(lines)+1}. {l}  <sub>{e['created_at'][:10]}</sub>")
+              if len(lines) == 6:
+                  break
+
+          body = "\n".join(lines) or "_Quiet week. Probably debugging something._"
+          readme = open("README.md", encoding="utf-8").read()
+          new = re.sub(r"(<!--RECENT_ACTIVITY:start-->).*?(<!--RECENT_ACTIVITY:end-->)",
+                       lambda m: f"{m.group(1)}\n{body}\n{m.group(2)}", readme, flags=re.S)
+          open("README.md", "w", encoding="utf-8").write(new)
+          PY
+
+      - name: Commit if changed
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add README.md
+          if git commit -m "chore: update recent activity"; then
+            git pull --rebase
+            git push
+          fi
