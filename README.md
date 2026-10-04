@@ -13,10 +13,14 @@
 <img src="https://img.shields.io/badge/Korea_University_'28-203A43?style=for-the-badge&logo=googlescholar&logoColor=5EC4D0" alt="Korea University"/>
 <img src="https://img.shields.io/badge/Open_to_internships-Jan–Mar_2027-2C5364?style=for-the-badge&logo=handshake&logoColor=5EC4D0&labelColor=203A43" alt="Open to internships"/>
 
+<br/>
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%" alt=""/>
+
 </div>
 
 <!-- ============================== ABOUT ============================== -->
-## About me
+## Annyeong, I'm Keira <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30" alt="wave"/>
 
 ```ts
 const keira = {
@@ -36,6 +40,20 @@ I build full-stack web, mobile apps and automations, and I weirdly enjoy the par
 
 <!-- ============================== STACK ============================== -->
 ## Tech stack
+
+<p align="center">
+  <img src="https://techstack-generator.vercel.app/ts-icon.svg" height="58" alt="TypeScript" title="TypeScript"/>
+  <img src="https://techstack-generator.vercel.app/react-icon.svg" height="58" alt="React" title="React"/>
+  <img src="https://techstack-generator.vercel.app/js-icon.svg" height="58" alt="JavaScript" title="JavaScript"/>
+  <img src="https://techstack-generator.vercel.app/python-icon.svg" height="58" alt="Python" title="Python"/>
+  <img src="https://techstack-generator.vercel.app/java-icon.svg" height="58" alt="Java" title="Java"/>
+  <img src="https://techstack-generator.vercel.app/swift-icon.svg" height="58" alt="Swift" title="Swift"/>
+  <img src="https://techstack-generator.vercel.app/cpp-icon.svg" height="58" alt="C++" title="C++"/>
+  <img src="https://techstack-generator.vercel.app/docker-icon.svg" height="58" alt="Docker" title="Docker"/>
+  <img src="https://techstack-generator.vercel.app/kubernetes-icon.svg" height="58" alt="Kubernetes" title="Kubernetes"/>
+  <img src="https://techstack-generator.vercel.app/restapi-icon.svg" height="58" alt="REST API" title="REST API"/>
+  <img src="https://techstack-generator.vercel.app/github-icon.svg" height="58" alt="GitHub" title="GitHub"/>
+</p>
 
 <div align="center">
 
@@ -81,6 +99,7 @@ I build full-stack web, mobile apps and automations, and I weirdly enjoy the par
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/keirara04/MakanApa">MakanApa</a></h3>
+      <p><img src="https://raw.githubusercontent.com/keirara04/MakanApa/main/MakanApa_Nasi_Mascot.svg" width="72" alt="Nasi, the MakanApa mascot" title="Nasi says hi"/></p>
       <p><i>"Makan apa hari ni?" solved in seconds</i></p>
       <p>Tell it your mood, budget and how far you'll walk. It picks <b>one</b> place nearby, so the group chat can stop arguing.</p>
       <ul>
@@ -199,6 +218,20 @@ Rebuilt a legacy spreadsheet-based time-tracking system as a mobile-first produc
 
 </details>
 
+<!-- ============================== TIMELINE ============================== -->
+## The journey so far
+
+```mermaid
+%%{init: {"theme": "base", "themeVariables": {"fontFamily": "Fira Code, monospace", "textColor": "#5EC4D0", "titleColor": "#5EC4D0", "lineColor": "#5EC4D0", "cScale0": "#0F2027", "cScale1": "#203A43", "cScale2": "#2C5364", "cScale3": "#3A8A96", "cScale4": "#5EC4D0", "cScaleLabel0": "#FFFFFF", "cScaleLabel1": "#FFFFFF", "cScaleLabel2": "#FFFFFF", "cScaleLabel3": "#FFFFFF", "cScaleLabel4": "#0F2027"}}}%%
+timeline
+    title The journey so far
+    Diploma : CGPA 3.96 : first "hello world"
+    Korea University : Moved from Malaysia to Seoul : CSE, TOPIK Level 4 : Co-founded MYPAC
+    2026 : Digital Intern @ ERS Energy : ThatFridge for RevenueCat Shipaton : MakanApa ships on iPhone : D&C Lab, reading Kubernetes : 연고전 AI Hackathon
+    Jan–Mar 2027 : Next internship (maybe yours?)
+    Feb 2028 : Graduation, finally
+```
+
 <!-- ============================== NOW ============================== -->
 ## Right now
 
@@ -208,6 +241,13 @@ Rebuilt a legacy spreadsheet-based time-tracking system as a mobile-first produc
 | Roomade & ShelterLab | Kubernetes internals | SNS Manager, KU FSU |
 | | Laravel patterns (Sanctum, schema design) | |
 | | LLM prompting for structured / agentic tasks | |
+
+<!-- ============================== RECENT ============================== -->
+## Lately on GitHub
+
+<!--RECENT_ACTIVITY:start-->
+_This list updates itself every few hours._
+<!--RECENT_ACTIVITY:end-->
 
 <!-- ============================== STATS ============================== -->
 ## GitHub activity
@@ -238,6 +278,19 @@ Rebuilt a legacy spreadsheet-based time-tracking system as a mobile-first produc
   <img width="100%" alt="Contribution snake" src="https://raw.githubusercontent.com/keirara04/keirara04/output/github-contribution-grid-snake.svg"/>
 </picture>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/keirara04/keirara04/pacman-output/pacman-contribution-graph-dark.svg"/>
+  <img width="100%" alt="Pac-Man eating my contributions" src="https://raw.githubusercontent.com/keirara04/keirara04/pacman-output/pacman-contribution-graph.svg"/>
+</picture>
+
+</div>
+
+<!-- ============================== JOKE ============================== -->
+## Mandatory dev joke
+
+<div align="center">
+  <img src="https://readme-jokes.vercel.app/api?bgColor=%230D1117&textColor=%23C9D1D9&aColor=%235EC4D0&borderColor=%232C5364&hideBorder=false" alt="Random dev joke"/>
+  <br/><sub>refresh for a new one, no refunds</sub>
 </div>
 
 <!-- ============================== 3D ============================== -->
@@ -5331,6 +5384,8 @@ endsolid keira
 <a href="mailto:hakeemiridza@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 <a href="https://keemi-portfolio.vercel.app"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a>
 <a href="https://shelterlab.shop"><img src="https://img.shields.io/badge/ShelterLab-2C5364?style=for-the-badge&logo=googlechrome&logoColor=white" alt="ShelterLab"/></a>
+
+<a href="https://github.com/keirara04"><img src="https://img.shields.io/github/followers/keirara04?label=Follow%20me%20on%20GitHub&style=social" alt="Follow"/></a>
 
 <sub>Last updated October 2026</sub>
 
