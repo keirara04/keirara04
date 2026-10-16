@@ -246,12 +246,12 @@ timeline
 ## Lately on GitHub
 
 <!--RECENT_ACTIVITY:start-->
-1. ⭐ Starred [speedyapply/JobSpy](https://github.com/speedyapply/JobSpy)  <sub>2026-10-15</sub>
-2. ⭐ Starred [aseprite/aseprite](https://github.com/aseprite/aseprite)  <sub>2026-10-15</sub>
-3. ⭐ Starred [mattpocock/skills](https://github.com/mattpocock/skills)  <sub>2026-10-15</sub>
-4. ⭐ Starred [morluto/rea](https://github.com/morluto/rea)  <sub>2026-10-15</sub>
-5. 🔨 Pushed 1 commit to [keirara04/MakanApa](https://github.com/keirara04/MakanApa)  <sub>2026-10-12</sub>
-6. 🔨 Pushed 1 commit to [naufalkmd/that-fridge](https://github.com/naufalkmd/that-fridge)  <sub>2026-10-09</sub>
+1. 🔀 Opened PR [#7](https://github.com/keirara04/Senbud/pull/7) in [keirara04/Senbud](https://github.com/keirara04/Senbud)  <sub>2026-10-16</sub>
+2. 🔀 Opened PR [#6](https://github.com/keirara04/Senbud/pull/6) in [keirara04/Senbud](https://github.com/keirara04/Senbud)  <sub>2026-10-16</sub>
+3. 🔀 Opened PR [#5](https://github.com/keirara04/Senbud/pull/5) in [keirara04/Senbud](https://github.com/keirara04/Senbud)  <sub>2026-10-16</sub>
+4. 🔀 Opened PR [#4](https://github.com/keirara04/Senbud/pull/4) in [keirara04/Senbud](https://github.com/keirara04/Senbud)  <sub>2026-10-16</sub>
+5. 🔨 Pushed 1 commit to [keirara04/Senbud](https://github.com/keirara04/Senbud)  <sub>2026-10-15</sub>
+6. 🔀 Opened PR [#3](https://github.com/keirara04/Senbud/pull/3) in [keirara04/Senbud](https://github.com/keirara04/Senbud)  <sub>2026-10-16</sub>
 <!--RECENT_ACTIVITY:end-->
 
 <!-- ============================== STATS ============================== -->
