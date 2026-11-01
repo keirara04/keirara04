@@ -161,7 +161,31 @@ I build full-stack web, mobile apps and automations, and I weirdly enjoy the par
     </td>
   </tr>
   <tr>
-    <td colspan="2" valign="top">
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/keirara04/Inthon-0x0F">어디路 (길결)</a> · InThon 2026</h3>
+      <p><img src="https://raw.githubusercontent.com/keirara04/Inthon-0x0F/main/frontend/public/mascot/main.webp" width="72" alt="어디路 mascot"/></p>
+      <p><i>Indoor navigation you feel, not stare at</i></p>
+      <p>Team lead of <b>0x0F</b> at Korea University's 24h InThon (theme: 감각, senses). Snap the evacuation map already posted on every floor, and it becomes a route that guides you with vibration and voice. Built for first-time visitors, international students and visually impaired people.</p>
+      <ul>
+        <li>Vision AI turns an evacuation-map photo into a room and corridor graph, starting from the map's 현위치</li>
+        <li>Vibration speeds up as you face the right way (stereo beep on iPhone), plus Korean TTS per step</li>
+        <li>Camera checkpoints read floor signs and room plates; off-route and wrong-floor re-routing</li>
+        <li>Saved maps per building, so the next visitor skips the photo</li>
+        <li>I owned backend, deploy and merges: Laravel API, Dokploy on my homelab</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js"/>
+        <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white" alt="Laravel"/>
+        <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL"/>
+        <img src="https://img.shields.io/badge/OpenRouter-vision-2C5364?style=flat-square&logo=openrouter&logoColor=white" alt="OpenRouter vision"/>
+        <img src="https://img.shields.io/badge/PWA-5A0FC8?style=flat-square&logo=pwa&logoColor=white" alt="PWA"/>
+      </p>
+      <p>
+        <a href="https://inthon.hakeemiridza.com"><img src="https://img.shields.io/badge/Live_demo-inthon.hakeemiridza.com-2C5364?style=flat-square&logo=googlechrome&logoColor=white" alt="Live demo"/></a>
+        <a href="https://youtu.be/_tmBiVy2yYI"><img src="https://img.shields.io/badge/demo_video-YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white" alt="Demo video"/></a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
       <h3>Aurora · 2026 연고전 AI Hackathon</h3>
       <p><i>A Python bot that plays capture-the-flag against Yonsei, 300 ms at a time</i></p>
       <p>Team lead of <b>파전</b> (Korea University side). We built an agent for <b>깃발 대항전</b>, a two-player simultaneous-turn strategy game on a 15×15 map with 160 turns: spawn flags, warriors and scouts, fight for 17 buildings, and manage an economy, all inside a 300 ms per-turn budget.</p>
@@ -227,7 +251,7 @@ timeline
     title The journey so far
     Diploma : CGPA 3.96 : first "hello world"
     Korea University : Moved from Malaysia to Seoul : CSE, TOPIK Level 4 : Co-founded MYPAC
-    2026 : Digital Intern @ ERS Energy : ThatFridge for RevenueCat Shipaton : MakanApa ships on iPhone : D&C Lab, reading Kubernetes : 연고전 AI Hackathon
+    2026 : Digital Intern @ ERS Energy : ThatFridge for RevenueCat Shipaton : MakanApa ships on iPhone : D&C Lab, reading Kubernetes : 연고전 AI Hackathon : 어디路 at InThon
     Jan–Mar 2027 : Next internship (maybe yours?)
     Feb 2028 : Graduation, finally
 ```
